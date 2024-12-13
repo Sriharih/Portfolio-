@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Hariharan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .topnav {
+            background-color: #01060c;
+            overflow: hidden;
+            transition: background-color 0.3s ease;
+        }
+        .topnav a {
+            float: left;
+            display: flex;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 30px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .topnav a:hover {
+            background-color: #78b6f3;
+            color: rgb(6, 6, 104);
+            transform: scale(1.1);
+        }
+        .topnav a.active {
+            color: white;
+        }
+        .topnav .icon {
+            display: none;
+        }
+        body {
+            background-image: url(bg1.jpg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .image img {
+            border: 10px solid black;
+            border-radius: 50%;
+            padding: 5px;
+            width: 250px;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image img:hover {
+            transform: rotate(10deg);
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) { display: none; }
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .topnav.responsive { position: relative; }
+            .topnav.responsive a.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
+        p {
+            font-size: 20px;
+            color: rgb(77, 121, 134);
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        p:hover {
+            color: rgb(30, 80, 90);
+            transform: scale(1.05);
+        }
+        h1 {
+            color: rgb(143, 22, 22);
+            text-align: center;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        h1:hover {
+            color: rgb(120, 0, 0);
+            transform: scale(1.05);
+        }
+        h2 {
+            text-align: center;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        h2:hover {
+            color: rgb(50, 50, 150);
+            transform: scale(1.05);
+        }
+        .something {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .something:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .det {
+            color: rgb(77, 121, 134);
+            display: flex;
+            justify-content: center;
+        }
+        .loader {
+            color: white;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: rgb(134, 6, 12);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        button:hover {
+            background-color: rgb(180, 0, 0);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#about" class="active">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#certification">Certification</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <hr>
+    <h1>Student at R P Sarathy Institute of Technology pursuing a Bachelor of Engineering in Computer Science and Engineering with career interests in web design, UI/UX design, and coding.</h1>
+    <div class="image">
+        <img src="1000019749.jpg" alt="Sri Hariharan">
+    </div>
+    <hr>
+    <div class="something">
+        <div class="loader"></div>
+        <section id="about">
+            <h1>About me:</h1>
+            <p>Hey there! I'm Sri Hariharan, a Computer Science and Engineering student from Salem, Tamil Nadu, India. I've been diving deep into programming, and I'm pretty comfortable with Java, C, HTML, CSS, and JavaScript.</p>
+            <p>So, picture this: I was in this online coding session, right? They threw us a challenge to create a Library Management System. It sounded tough, but I took it head-on and built it from scratch using Java. It was a fantastic learning experience, and I'm proud of what I created.</p>
+            <p>But that's not all. I also decided to challenge myself further. Inspired by Netflix's interface, I thought, "Hey, why not create my own version?" And that's how I ended up developing a Netflix clone. Let me tell you, it was quite the journey, but totally worth it!</p>
+            <p>Now, outside of coding, one thing I'm really passionate about is music. Eminem is my absolute favorite artist. His lyrics just speak to me on a different level.</p>
+            <p>So, that's a bit about me! Welcome to my portfolio, where you'll see how my passion for coding, love for challenges, and appreciation for music all come together to create something special.</p>
+        </section>
+    </div>
+    <hr>
+    <div class="something">
+        <h1>The quotes that motivate me:</h1>
+        <h2>"The future belongs to those who believe in the beauty of their dreams"</h2>
+        <h2>"Learn from yesterday"</h2>
+    </div>
+    <hr>
+    <div class="det">
+        <section id="contact">
+            <h1>Contact:</h1>
+            <center>
+                <h2>Connect with me on LinkedIn:</h2>
+                <a href="https://www.linkedin.com/in/srihariharan-s"><i class="fa fa-linkedin-square" style="font-size: 36px; color: rgb(49, 49, 138);"></i></a>
+                <h2>Contact me via:</h2>
+                <a href="https://www.instagram.com/srihariharan2004?igsh=MXVxN3"><i class="fa fa-instagram" style="font-size: 36px; color:rgb(77, 4, 77)"></i></a>
+                <h2>Send me a mail:</h2>
+                <a href="mailto:haransrihari533@gmail.com"><i class="fa fa-envelope" style="font-size: 36px; color: rgb(182, 26, 26);"></i></a>
+            </center>
+        </section>
+    </div>
+    <hr>
+    <div class="something">
+        <section id="certification">
+            <h1>Certification:</h1>
+            <p>Welcome to my certification showcase! I believe in the power of continuous learning and professional development. In this section, I proudly display the certifications I've earned, showcasing my dedication to mastering new skills, staying current with industry standards, and delivering excellence in my work. Each certificate represents a milestone in my journey, reflecting my commitment to personal and professional growth. Explore my certifications below to learn more about the expertise and qualifications I bring to every project and endeavor.</p>
+            <img src="certificate1.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate2.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate3.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate4.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate5.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate6.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="certificate7.jpg" alt="certificate" width="300" height="300" style="display: block; margin: 0 auto;">
+        </section>
+    </div>
+    <hr>
+    <div class="something">
+        <section id="projects">
+            <h1>Projects:</h1>
+            <p>Here's a glimpse into the exciting projects I've had the privilege to work on. Each project is a testament to my passion for coding, problem-solving, and innovation. From developing robust applications to designing user-friendly interfaces, these projects highlight my technical skills and creative approach. Dive in and discover the work that defines my journey as a developer.</p>
+            <img src="project1.jpg" alt="project" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="project2.jpg" alt="project" width="300" height="300" style="display: block; margin: 0 auto;">
+            <img src="project3.jpg" alt="project" width="300" height="300" style="display: block; margin: 0 auto;">
+        </section>
+    </div>
+    <hr>
+    <div class="something">
+        <section id="resume">
+            <h1>Resume:</h1>
+            <p>Thank you for taking the time to review my resume. I am excited to share my professional journey, experiences, and accomplishments with you. My resume outlines my educational background, work history, technical skills, and certifications, providing a comprehensive overview of my qualifications. Feel free to download the document to learn more about my contributions and how I can add value to your team.</p>
+            <button onclick="downloadResume()">Download Resume</button>
+        </section>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        function downloadResume() {
+            window.location.href = 'Sri_Hariharan_Resume.pdf'; // Make sure the resume file is available at this path
+        }
+    </script>
+</body>
+</html>
