@@ -1,0 +1,160 @@
+ body{
+            margin: 0px;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            transition: all 2s ease-in-out;
+        }
+        .main img{
+            width: 100vw;
+            height: 100vh;
+        }
+        .topic{
+            width: 100vw;
+            height: 20vh;
+            position: absolute;
+            top: 0vh;
+            left: 0vw;
+        }
+        .topic h1{
+            color: whitesmoke ;
+            font-size: 40px;
+            position: absolute;
+            top: 8vh;
+            left: 2vw;
+            text-shadow: 3px 5px 0 #ff005e;
+        }
+        
+        .image1{
+            height: 59vh;
+            width: 21vw;
+            position: absolute;
+            top: 28vh;
+            right: 5vw;
+            border: 5px solid #ff005e  ;
+            border-radius: 50px;
+        }
+        .image1:hover{
+            border: 5px solid rgba(5, 216, 205, 0.753)  ;
+            box-shadow:1px 1px 5px 10px rgba(5, 216, 205, 0.753) ;
+        }
+        .boder_purpose{
+             height: 61vh;
+            width: 22vw;
+            position: absolute;
+            top: 27.5vh;
+            right: 4.5vw;
+            border: 5px solid rgba(5, 216, 205, 0.753)  ;
+            border-radius: 50px;
+        }
+        .boder_purpose:hover{
+            border: 5px solid #ff005e  ;
+             box-shadow:1px 1px 5px 10px #ff005e;
+        }
+        .image1 img{
+            height: 59.9vh;
+            width: 20.9vw;
+            border-radius: 50px;
+        }
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 3vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td :hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -1vh;
+            left: 2.5vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+        hr{
+            width: 80vw;
+            border: 2px dashed rgba(5, 216, 205, 0.753) ;
+            position: absolute;
+            top: 14.8vh;
+            left: 18.3vw;
+            
+        }
+        .content{
+            width: 68vw;
+            position: absolute;
+            top: 21vh;
+            left: 2vw;
+        }
+        .content p{
+            font-size: 21px;
+            color: bisque;
+        }
+        .content b{
+            color: rgba(5, 216, 205, 0.753) ;
+        }
+        .datas{
+            height: 18vh;
+            width: 68vw;
+            position: absolute;
+            top: 78.3vh;
+            left: 3vw;
+            border: 3px solid rgba(5, 216, 205, 0.753);
+            border-radius: 60px;
+            box-shadow:1px 1px 5px 5px #ff005e;
+        }
+        .datas p{
+            color: beige;
+            padding-left: 70px;
+            font-size: large;
+            padding-top: -2px;
+        }
+        .datas b
+        {
+            color: rgba(5, 216, 205, 0.753);
+        }
+       
+        .datas1{
+            height: 18vh;
+            width: 68vw;
+            position: absolute;
+            top: 78.3vh;
+            left: 36vw;
+        }
+        .datas1 p{
+            color: beige;
+            padding-left: 70px;
+            font-size: large;
+            padding-top: -2px;
+        }
+        .datas1 b
+        {
+            color: rgba(5, 216, 205, 0.753);
+        }

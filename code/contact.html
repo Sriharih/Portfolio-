@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+    <img src="../background/stylish-glowing-digital-red-lines-banner_1017-23964.jpg">
+    <div class="bars">
+           <table>  
+            <tr>
+                <td><a href="../index.html">Home</a></td>
+                <td><a href="about.html">About</a></td>
+                <td><a href="experience.html">Experience</a></td>
+                <td><a href="skills.html">Skills</a></td>
+                <td><a href="project.html">Project</a></td>
+               
+            </tr>
+           </table>
+    </div>
+   
+        <div class="logo">
+        <h1>PORTFOLIO</h1>
+    </div>
+   <div class="design">
+     <section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out for collaborations or opportunities!</p>
+
+  <form id="contactForm">
+   
+    <input type="text" id="name" placeholder="Your Name" required>
+    
+    <input type="email" id="email" placeholder="Email"  required>
+  
+    <textarea id="message" rows="5" placeholder="Send Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="statusMsg"></p>
+</section>
+   </div>
+    <div class="immm">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/044/428/139/small_2x/cartoon-character-with-the-desk-working-concept-illustration-free-png.png">
+</div>
+    <div class="immm2">
+      <img src="https://static.vecteezy.com/system/resources/previews/020/962/986/non_2x/software-engineer-graphic-clipart-design-free-png.png">
+    </div>
+</div>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+  const statusMsg = document.getElementById("statusMsg");
+
+  if (!name || !email || !message) {
+    statusMsg.style.color = "red";
+    statusMsg.textContent = "Please fill out all fields.";
+    return;
+  }
+
+  const mailtoLink = `mailto:haransri@gmail.com?subject=Message%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message + "\n\nEmail: " + email)}`;
+
+  window.location.href = mailtoLink;
+
+  statusMsg.style.color = "green";
+  statusMsg.textContent = "Opening your email app...";
+});
+
+</script>
+</body>
+</html>

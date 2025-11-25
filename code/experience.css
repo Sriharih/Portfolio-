@@ -1,0 +1,127 @@
+ body{
+            margin: 0px;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            transition: all 2s ease-in-out;
+        }
+        .main img{
+            width: 100vw;
+            height: 100vh;
+        }
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 3vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td :hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -1vh;
+            left: 2.5vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+          .heading{
+            height: 5vh;
+            width: 25vw;
+            position: absolute;
+            top: 11vh;
+            left: 2.2vw;
+        }
+        .heading h1{
+            color: azure;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px #ff005e;
+        }
+        .movement{
+            height: 25vh;
+            width: 65vw;
+            position: absolute;
+            top: 70vh;
+            right: 1vw;
+          
+        }
+        .movement img{
+            height: 22vh;
+            width: 20vw;
+            background-color: #ff005e;
+            border: 3px solid rgba(216, 107, 5, 0.753);
+            border-radius: 30px;
+        }
+        .movement1{
+            height: 25vh;
+            width: 65vw;
+            position: absolute;
+            top: 45vh;
+            right: 1vw;
+        }
+        .movement1 img{
+            height: 22vh;
+            width: 20vw;
+            background-color: #ff005e;
+            border: 3px solid rgba(216, 107, 5, 0.753);
+            border-radius: 30px;
+        }
+        .contents{
+            height: 75vh;
+            width: 31vw;
+            border: 2px solid white;
+            border-radius: 35px ;
+            position: absolute;
+            top: 22vh;
+            left: 2vw;
+        }
+        .contents:hover{
+            border:2px solid #ff005e;
+        }
+        .contents:hover p{
+            color: aquamarine;
+        } 
+        .contents p{
+            position: absolute;
+            top: -1vh;
+            left: 1vw;
+            right: 0vw;
+            color: #dff70b;
+            font-size: 17px;
+            font-family: sans-serif;        
+        }
+        .hhh{
+            position: absolute;
+            top: 30vh;
+            left: 34vw;
+            color: azure;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px #ff005e;
+        }

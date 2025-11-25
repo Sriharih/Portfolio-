@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+            margin: 0px;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            transition: all 2s ease-in-out;
+        }
+        .main img{
+            width: 100vw;
+            height: 100vh;
+        }
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 3vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td :hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -1vh;
+            left: 2.5vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+        .contact-section {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-section h2 {
+  color: #f39dbc;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.contact-section p{
+  color: rgba(5, 216, 205, 0.753)
+}
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #fff7fa;;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-section button {
+  padding: 12px;
+  border: none;
+  width: 20vw;
+  background: #007bff;
+  border: 2px solid rgba(5, 216, 205, 0.753);
+  background: linear-gradient(to right, rgb(3, 11, 17) , #ff005e);
+  color: #fff;
+  font-size: 17px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+  top: 70vh;
+  left: 7vw;
+}
+
+.contact-section button:hover {
+    border: 2px solid #ff005e;
+            background: linear-gradient(to right, rgb(3, 11, 17) , rgba(5, 216, 205, 0.753));
+}
+
+#statusMsg {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.design{
+  position: absolute;
+  top: 10vh;
+  left: 30vw;
+}
+.immm{
+ height: 60vh;
+  width: 28vw;
+  position: absolute;
+  top: 23vh;
+  right: 1.2vw;
+}
+.immm img{
+   height: 100%;
+  width: 100%;
+}
+.immm2{
+  height: 60vh;
+  width: 28vw;
+  position: absolute;
+  top: 23vh;
+  left: 1.2vw;
+}
+.immm2 img{
+   height: 100%;
+  width: 100%;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <img src="../background/stylish-glowing-digital-red-lines-banner_1017-23964.jpg">
+    <div class="bars">
+           <table>  
+            <tr>
+                <td><a href="../index.html">Home</a></td>
+                <td><a href="about.html">About</a></td>
+                <td><a href="experience.html">Experience</a></td>
+                <td><a href="skills.html">Skills</a></td>
+                <td><a href="project.html">Project</a></td>
+               
+            </tr>
+           </table>
+    </div>
+   
+        <div class="logo">
+        <h1>PORTFOLIO</h1>
+    </div>
+   <div class="design">
+     <section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out for collaborations or opportunities!</p>
+
+  <form id="contactForm">
+   
+    <input type="text" id="name" placeholder="Your Name" required>
+    
+    <input type="email" id="email" placeholder="Email"  required>
+  
+    <textarea id="message" rows="5" placeholder="Send Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="statusMsg"></p>
+</section>
+   </div>
+    <div class="immm">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/044/428/139/small_2x/cartoon-character-with-the-desk-working-concept-illustration-free-png.png">
+</div>
+    <div class="immm2">
+      <img src="https://static.vecteezy.com/system/resources/previews/020/962/986/non_2x/software-engineer-graphic-clipart-design-free-png.png">
+    </div>
+</div>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+  const statusMsg = document.getElementById("statusMsg");
+
+  if (!name || !email || !message) {
+    statusMsg.style.color = "red";
+    statusMsg.textContent = "Please fill out all fields.";
+    return;
+  }
+
+  const mailtoLink = `mailto:haransri@gmail.com?subject=Message%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message + "\n\nEmail: " + email)}`;
+
+  window.location.href = mailtoLink;
+
+  statusMsg.style.color = "green";
+  statusMsg.textContent = "Opening your email app...";
+});
+
+</script>
+</body>
+</html>

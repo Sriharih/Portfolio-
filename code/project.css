@@ -1,0 +1,430 @@
+body{
+            margin: 0px;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;    
+        }
+        .main img{
+            width: 100vw;
+            height: 100vh;
+        }
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 3vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td :hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -1vh;
+            left: 2.5vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+        .con1{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 25vh;
+            left: 2vw;
+        
+        }
+        .con1 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con1 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con1 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech1{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 52vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con1:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 24vh;
+            left: 1.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con1:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+        .con2{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 25vh;
+            left: 34vw;
+        }
+        /*-------------------------------------------------------------------------*/
+        .con2 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con2 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con2 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech2{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 52vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con2:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 24vh;
+          left: 33.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con2:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+        /*-------------------------------------------------------------------------*/
+        .con3{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 25vh;
+            left: 66vw;
+        }
+        /*-------------------------------------------------------------------------*/
+        .con3 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con3 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con3 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech3{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 52vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con3:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 24vh;
+          left: 65.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con3:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+        /*-------------------------------------------------------------------------*/
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+         }
+         .main2 img{
+            width: 100%;
+            height: 100%;
+         }
+         .con21{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 1vh;
+            left: 2vw;
+        }
+        /*---------------------------------------------------------------------------------*/
+        
+        .con21 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con21 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con21 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech21{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 53vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con21:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 0vh;
+            left: 1.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con21:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+
+        /*---------------------------------------------------------------------------------*/
+        .con22{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 1vh;
+            left: 34vw;
+        }
+        /*-------------------------------------------------------------------------*/
+        .con22 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con22 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con22 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech22{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 53vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con22:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 0vh;
+          left: 33.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con22:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+        /*-------------------------------------------------------------------------*/
+        .con23{
+            height: 65vh;
+            width: 30vw;
+            position: absolute;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            top: 1vh;
+            left: 66vw;
+        }
+         /*-------------------------------------------------------------------------*/
+        .con23 img{
+            height: 40%;
+            width: 70%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 30px;
+            top: 3vh;
+            left: 4.5vw;
+        }
+        .con23 p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 35vh;
+            left: 1.5vw;
+        }
+        .con23 a{
+            text-decoration: none;
+            position: absolute;
+            top: 60vh;
+            left: 1.5vw;
+            color: rgb(227, 243, 6);
+        }
+        #tech23{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 53vh;
+            left: 1.5vw;
+        }
+        b{
+            color: #ff005e;
+        }
+        .con23:hover{
+          height: 66vh;
+          width: 31vw;
+          position: absolute;
+          top: 0vh;
+          left: 65.8vw;
+            box-shadow: 2px 2px 2px 2px  #ff005e;
+        }
+        .con23:hover img{
+            position: absolute;
+            top: 5vh;
+          transform: scale3d(1.2,1.2,1.5);
+        }
+        /*-------------------------------------------------------------------------*/
+        .heading{
+            height: 5vh;
+            width: 25vw;
+            position: absolute;
+            top: 11vh;
+            left: 2.2vw;
+        }
+        .heading h1{
+            color: azure;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px #ff005e;
+        }
+        .upcomming{
+            height: 28vh;
+            width: 94vw;
+            border: 2px solid bisque;
+            border-radius: 30px;
+            position: absolute;
+            bottom: 2vh;
+            left: 2vw;
+        }
+        .upcomming h1{
+            position: absolute;
+            top: -1vh;
+            left: 1.8vw;
+            text-decoration: underline;
+            color: azure;
+            text-shadow: 2px 2px 0px #ff005e;
+        }
+        .upcomming p{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: 6vh;
+            left: 7vw;
+            right: 3vw;
+        }

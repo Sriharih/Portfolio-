@@ -1,0 +1,568 @@
+body{
+            margin: 0px;
+             position: relative;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            transition: all 2s ease-in-out;
+        }
+        .main img{
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 3vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td :hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -1vh;
+            left: 2.5vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+        #design{
+              height: 45vh;
+            width: 24vw;
+            position: absolute;
+            top: 24vh;
+            left: 1vw;
+        }
+        .tech_skills h1{
+            color:  bisque;
+            position: absolute;
+            text-decoration: underline;
+            top: 13vh;
+            left: 3vw;
+        }
+        .programming_language{
+            height: 22vh;
+            width: 28vw;
+            position: absolute;
+            top: 22vh;
+            left: 25vw;
+        }
+        .programming_language h2{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: -3vh;
+            left:1vw;
+            text-decoration: underline ;
+        }
+        .java{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 1vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .java h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .c{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 10vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .c h3{
+            position: absolute;
+            left: 2.8vw;
+        }
+        .python{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 19vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .python h3{
+            position: absolute;
+            left: 0.8vw;
+        }
+        .web_development{
+            height: 22vh;
+            width: 45vw;
+            position: absolute;
+            top: 22vh;
+            left: 53vw;
+        }
+        .web_development h2{
+              color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: -3vh;
+            left:1vw;
+            text-decoration: underline ;
+        }
+        .javascript{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 19vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .javascript h3{
+            position: absolute;
+            top: -1vh;
+            left: 1.3vw;
+        }
+        .php{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 28vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .php h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .html{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 1vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .html h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .css{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 10vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .css h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .sql{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 37vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .sql h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .Software_methodologies{
+            height: 22vh;
+            width: 28vw;
+            position: absolute;
+            top: 44vh;
+            left: 25vw;
+        }
+        .Software_methodologies h2{
+             color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: -3vh;
+            left:1vw;
+            text-decoration: underline ;
+        }
+        .sdlc{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 1vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .sdlc h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .agile{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 10vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .agile h3{
+            position: absolute;
+            left: 1.4vw;
+        }
+        .genai{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 19vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .genai h3{
+            position: absolute;
+            left: 1vw;
+        }
+        .tools{
+             height: 22vh;
+            width: 45vw;
+            position: absolute;
+            top: 44vh;
+            left: 53vw;
+        }
+        .tools h2{
+            color: rgba(5, 216, 205, 0.753);
+            position: absolute;
+            top: -3vh;
+            left:1vw;
+            text-decoration: underline ;
+        }
+        .workbench{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 19vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .workbench h3{
+            position: absolute;
+            top: -1vh;
+            left: 1.3vw;
+        }
+        .canva{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 28vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .canva h3{
+            position: absolute;
+            left: 1.3vw;
+        }
+        .vscode{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 1vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .vscode h3{
+            position: absolute;
+            left: 0.7vw;
+        }
+        .xampp{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 10vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .xampp h3{
+            position: absolute;
+            left: 1.3vw;
+        }
+        .aitools{
+            height: 10vh;
+            width: 7vw;
+            position: absolute;
+            top: 7vh;
+            left: 37vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .aitools h3{
+            position: absolute;
+            top: -1vh;
+            left: 1.6vw;
+        }
+        .aitools:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .soft_skills img{
+            height: 25vh;
+            width: 10vw;
+            position: absolute;
+            top: 68vh;
+            right: 1.7vw;
+        }
+        .struct{
+            height: 24vh;
+            width: 88vw;
+            position: absolute;
+            top: 68vh;
+            left: ovw;
+        }
+         .struct h1{
+              color:  bisque;
+            position: absolute;
+            text-decoration: underline;
+            top: -2vh;
+            left: 3vw;
+        }
+        .s{
+            height: 10vh;
+            width: 15vw;
+            position: absolute;
+            top: 9vh;
+            left: 12vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .s h3{
+            position: absolute;
+            left: 1.6vw;
+        }
+        .s:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .t{
+            height: 10vh;
+            width: 15vw;
+            position: absolute;
+            top: 9vh;
+            left: 30vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .t h3{
+            position: absolute;
+            left: 1.5vw;
+            top: -1vh;
+        }
+        .t:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .l{
+            height: 10vh;
+            width: 15vw;
+            position: absolute;
+            top: 9vh;
+            left: 48vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .l h3{
+            position: absolute;
+            left: 3.1vw;
+        }
+        .l:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .t2{
+            height: 10vh;
+            width: 15vw;
+            position: absolute;
+            top: 9vh;
+            left: 66vw;
+            border: 4px solid #ff005e;
+            border-radius: 30%;
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .t2 h3{
+            position: absolute;
+            left: 2.5vw;
+        }
+        .t2:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .canva:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .sql:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .php:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .javascript:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .workbench:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .css:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }.xampp:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .html:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .vscode:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }.java:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .c:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .python:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }.sdlc:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .agile:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
+        .genai:hover{
+            box-shadow: 5px 5px 2px 1px rgba(5, 216, 205, 0.753);
+            border: 4px solid #ff005e;
+            color: white;
+            font-size: larger;
+            transform: rotate(1deg);
+        }
