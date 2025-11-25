@@ -1,0 +1,138 @@
+body{
+            margin: 0px;
+        }
+        .home{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            transition: all 2s ease-in-out;
+        }
+        .home img{
+            width: 100vw;
+            height: 100vh;
+        }
+        .bars{
+            width: 30vw;
+            
+            padding-left: 60vw;
+            position: absolute;
+            top: 2vh;
+        }
+        .bars td{
+            color: bisque;
+            padding-left: 2.2vw;
+            font-size: larger;
+        }
+        td a{
+            text-decoration: none;
+            color: bisque;
+        }
+        td:hover{
+            color:rgba(5, 216, 205, 0.753) ;
+            
+        }
+        .logo{
+            width: 40vw;
+            height: 7vh;
+            text-shadow: 2px 3px 0 #ff005e;
+            position: absolute;
+            top: 0.5vh;
+        }
+        .logo h1{
+            height: 30vh;
+            width: 30vw;
+            position: absolute;
+            top: -2vh;
+            left: 1vw;
+            color: rgba(5, 216, 205, 0.753);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            /*
+            #13e7e7
+            */
+        }
+        .image{
+            width: 30vw;
+            height: 60vh;
+            position: absolute;
+            background-color: black;
+            border: 5px solid rgba(5, 216, 205, 0.753);
+            border-radius: 300px;
+            top: 25vh;
+            right: 8vw;
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+            border-radius: 350px;
+        }
+        .image:hover{
+            border: 8px solid rgba(5, 216, 205, 0.753);
+            box-shadow:1px 1px 5px 10px #ff005e;
+        }
+        .image:hover img{
+            border: 2px solid #ff005e;
+        }
+        .content{
+            position: absolute;
+            top: 25vh;
+            left: 6vw;
+            font-size: 30PX;
+            line-height: .7;
+        }
+        .content h3{
+            color: #e2e9e8;
+        }
+        .content h1{
+            color: #e2e9e8;
+        }
+        .content b{
+            color: rgba(5, 216, 205, 0.753);
+        }
+        .content b:hover{
+          text-shadow: 2px 2px 0 #ff005e;
+        }
+        .small_text{
+            position: absolute;
+            top: 57vh;
+            left: 6vw;
+        }
+        .small_text h3{
+            color: #e2e9e8;
+        }
+        .but{
+            
+            position: absolute;
+            top: 85vh;
+            left: 6vw;
+        }
+        button{
+            height: 5vh;
+            width: 10vw;
+            font-size: large;
+            color: beige;
+            border: 2px solid rgba(5, 216, 205, 0.753);
+            border-radius: 50px;
+            background: linear-gradient(to right, rgb(3, 11, 17) , #ff005e);
+        }
+        button:hover{
+            border: 2px solid #ff005e;
+            background: linear-gradient(to right, rgb(3, 11, 17) , rgba(5, 216, 205, 0.753));
+        }
+        .icons{
+            position: absolute;
+            top: 74vh;
+            left: 5vw;
+           
+        }
+        .icons a{
+            padding: 20px;
+            color: rgba(5, 216, 205, 0.753);
+            font-size:30px;
+             transition: all 1s ease-in-out;
+             text-decoration: none;
+        }
+        a:hover{
+            text-shadow: 2px 1px 0 rgba(5, 216, 205, 0.753);
+        }
