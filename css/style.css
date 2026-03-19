@@ -1,0 +1,37 @@
+
+#icons a{
+    height: 30px;
+    width: 30px;
+    color: rgb(152, 145, 7);
+    font-weight: 400;
+    font-size: x-large;
+}
+#icons a :hover{
+    color: aqua;
+}
+.navbar button{
+    background-color: rgb(172, 141, 16);
+}
+#projects img{
+transition: 1s;
+}
+
+.inner{
+overflow: hidden;
+}
+#projects img:hover{
+border-radius: 30px;
+transform: scale(1.5);
+transition: 1s;
+}
+#experience{
+   
+    padding: 3px;
+}
+#skills{
+  
+    padding: 3px;   
+}
+body{
+    font-family: Google sans, Open sans;
+}
